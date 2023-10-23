@@ -1,6 +1,6 @@
 ## Hi Develovers!👋
  </br></br>
-#### 🤯 My life since I discovered the code:
+#### 🤯 My life since I discovered the code: </br>
 <img align="center"  src="https://miro.medium.com/v2/resize:fit:1100/1*sUI4nkPfH0wevBQMb29cnQ.jpeg" alt="Marco Giallombardo img" width="1200" height="500"/> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
 </br></br></br>
 ## That's me:</br>
