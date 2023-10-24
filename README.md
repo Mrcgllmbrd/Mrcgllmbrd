@@ -1,5 +1,5 @@
 <h2> Hi Develovers!👋</h2>  <br />
-<p align = right> 🤯 &nbsp My life since I discovered the code:</p>
+<p align = right> 🤯 &nbsp My life since I discovered coding:</p>
 <img src="https://miro.medium.com/v2/resize:fit:1100/1*sUI4nkPfH0wevBQMb29cnQ.jpeg" alt="Marco Giallombardo img" width="460" height="300" align="right" /> 
 
 <h3>About me:</h3> 
