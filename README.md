@@ -1,14 +1,14 @@
-## Hi Develovers!👋
- </br></br>
-#### 🤯 My life since I discovered the code:
-<img align="center"  src="https://miro.medium.com/v2/resize:fit:1100/1*sUI4nkPfH0wevBQMb29cnQ.jpeg" alt="Marco Giallombardo img" width="1200" height="500"/> &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-</br></br></br>
-## That's me:</br>
-- 🌱 I’m currently learning **HTML5, CSS, JAVASCRIPT, TYPESCRIPT, REACT AND NODE.**
-- 👯 I’m looking to collaborate with **developers and aspiring developers to grow and to learn together 💪**
-- 💬 Ask me about **Books, Work-out, Healty Nutrition, Tv Series, Politic, Football**
-- ⚡ Fun fact: **I've never liked cats... Now I'm in love with my kitten Clara 🤦🏻‍♂️**
+<h2> Hi Develovers!👋</h2>  <br />
+<p align = right> 🤯 &nbsp My life since I discovered the code:</p>
+<img src="https://miro.medium.com/v2/resize:fit:1100/1*sUI4nkPfH0wevBQMb29cnQ.jpeg" alt="Marco Giallombardo img" width="460" height="300" align="right" /> 
+
+<h3>About me:</h3> 
+🌱 I’m currently learning <b>HTML5, CSS, JAVASCRIPT, TYPESCRIPT, REACT AND NODE.js</b> <br></br>
+👯 I’m looking to collaborate with developers and aspiring developers to grow and to learn together 💪  <br></br>
+💬 My interests are about Books, Work-out, Healty Nutrition, Tv Series, Politic, Football <br></br>
+⚡ Fun fact: I've never liked cats... Now I'm in love with my kitten Clara 🤦🏻‍♂️ <br></br>
 </br></br>
+
 <p align="center">
   <i>Want know more about me?</i> <br>
   
@@ -18,3 +18,6 @@
   </p>
 
 ⭐️ From [Marco Giallombardo](https://github.com/Mrcgllmbrd)
+
+
+
