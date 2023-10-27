@@ -9,7 +9,7 @@
 ⚡ Fun fact: I've never liked cats... Now I'm in love with my kitten Clara 🤦🏻‍♂️ <br></br>
 </br>
 
-<h4> Current stuff where i'm focuings on now...</h4>
+<h4> Current stuff where i'm focusing on now...</h4>
 <p>
   <img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=white&labelColor=blue">
   
