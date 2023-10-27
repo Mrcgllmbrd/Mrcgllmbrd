@@ -3,13 +3,13 @@
 <img src="https://miro.medium.com/v2/resize:fit:1100/1*sUI4nkPfH0wevBQMb29cnQ.jpeg" alt="Marco Giallombardo img" width="460" height="300" align="right" /> 
 
 <h3> Who I am?</h3> 
-👤❓I'm an aspiring junior developer studying in a bootcamp school called Develhope. So you can consider me as a devel-hoper 😬<br></br>
-👯 I’m looking to collaborate with developers and aspiring developers to grow and to learn together 💪  <br></br>
-💬 My interests are about Books, Work-out, Healty Nutrition, Tv Series, Politic, Football <br></br>
+👤❓I'm an aspiring junior developer studying at a bootcamp school called Develhope. So you can consider me "devel-hoper" 😬<br></br>
+👯 I'm looking to collaborate with developers and aspiring developers to grow and learn together 💪  <br></br>
+💬  My interests include books, working out, healthy nutrition, TV series, politics, and football <br></br>
 ⚡ Fun fact: I've never liked cats... Now I'm in love with my kitten Clara 🤦🏻‍♂️ <br></br>
 </br>
 
-<h4> Current stuff where i'm focuings on, for now...</h4>
+<h4> Current stuff where i'm focuings on now...</h4>
 <p>
   <img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=white&labelColor=blue">
   
