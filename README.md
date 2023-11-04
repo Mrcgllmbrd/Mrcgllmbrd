@@ -1,6 +1,7 @@
 <h2> Hi Develovers!👋</h2>  <br />
 <p align = right> 🤯 &nbsp My life since I discovered coding:</p>
-<img src="https://miro.medium.com/v2/resize:fit:1100/1*sUI4nkPfH0wevBQMb29cnQ.jpeg" alt="Marco Giallombardo img" width="460" height="300" align="right" /> 
+<img src="https://github.com/Mrcgllmbrd/Mrcgllmbrd/assets/142672645/c2b3113b-4a85-449c-8e6b-fd5b0973a5a6" alt="Marco Giallombardo img" width="580" height="330" align="right" /> 
+
 
 <h3> Who I am?</h3> 
 👤❓I'm an aspiring junior developer studying at a bootcamp school called Develhope. So you can consider me "devel-hoper" 😬<br></br>
