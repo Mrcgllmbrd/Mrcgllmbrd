@@ -1,6 +1,18 @@
+*{
+  list-style: none;
+}
+body{
+  margin: 1rem;
+}
+
+ul {
+  margin:0;
+  padding: 0;
+}
+
 /* Top Nav */
 .top-nav {
-  background-color: var(--top-navbar);
+  background-color: black;
   display: flex;
   height: 45px;
   width: 100%;
@@ -66,7 +78,7 @@
 /* Login section */
 .top-nav-slide {
   align-items: center;
-  background-color: var(--top-navbar);
+  background-color: black;
   display: flex;
   height: 0;
   justify-content: center;
@@ -283,7 +295,7 @@
   transition: transform 0.3s ease-out;
 }
 #dots-icon:hover {
-  fill: var(--logo-EA-play);
+  fill: orangered;
   cursor: pointer;
   transform: scale(1.4);
 }
