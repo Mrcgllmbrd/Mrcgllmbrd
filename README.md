@@ -12,17 +12,17 @@
 
 <h4> Current stuff where i'm focusing on now...</h4>
 <p>
-  <img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=white&labelColor=blue">
+  <img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=orange&labelColor=black" height="30px">
   
-  <img src="https://img.shields.io/badge/CSS-red?style=flat&logo=css3&logoColor=white&labelColor=blue">
+  <img src="https://img.shields.io/badge/CSS-red?style=flat&logo=css3&logoColor=blue&labelColor=white" height="30px">
   
-  <img src="https://img.shields.io/badge/javascript-red?style=flat&logo=javascript&logoColor=white&labelColor=blue">
+  <img src="https://img.shields.io/badge/javascript-red?style=flat&logo=javascript&logoColor=yellow&labelColor=black" height="30px">
   
-  <img src="https://img.shields.io/badge/typescript-red?style=flat&logo=typescript&logoColor=white&labelColor=blue">
+  <img src="https://img.shields.io/badge/typescript-red?style=flat&logo=typescript&logoColor=white&labelColor=blue" height="30px">
   
-  <img src="https://img.shields.io/badge/react-red?style=flat&logo=react&logoColor=white&labelColor=blue">
+  <img src="https://img.shields.io/badge/react-red?style=flat&logo=react&logoColor=aqua&labelColor=black" height="30px">
 
-   <img src="https://img.shields.io/badge/node.js-red?style=flat&logo=node.js&logoColor=white&labelColor=blue">
+   <img src="https://img.shields.io/badge/node.js-red?style=flat&logo=node.js&logoColor=white&labelColor=green" height="30px">
 </p>
 </br></br>
 
