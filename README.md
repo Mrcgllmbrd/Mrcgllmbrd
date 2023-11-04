@@ -1,6 +1,6 @@
 <h2> Hi Develovers!👋</h2>  <br />
 <p align = right> 🤯 &nbsp My life since I discovered coding:</p>
-<img src="https://github.com/Mrcgllmbrd/Mrcgllmbrd/assets/142672645/c2b3113b-4a85-449c-8e6b-fd5b0973a5a6" alt="Marco Giallombardo img" width="580" height="330" align="right" /> 
+<img src="https://github.com/Mrcgllmbrd/Mrcgllmbrd/assets/142672645/c2b3113b-4a85-449c-8e6b-fd5b0973a5a6" alt="Marco Giallombardo img" width="400" height="200" align="right" /> 
 
 
 <h3> Who I am?</h3> 
