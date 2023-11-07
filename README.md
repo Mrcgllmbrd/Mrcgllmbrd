@@ -28,7 +28,6 @@
 
 <p align="center">
   <i>Contacts</i> <br>  
-  
   <p align="center">
   <a href="https://www.linkedin.com/in/marco-giallombardo/" alt="Linkedin"><img src="https://github.com/nitish-awasthi/nitish-awasthi/blob/master/174857.png" height="30" width="30"></a>
  
@@ -36,5 +35,6 @@
 
 ⭐️ From [Marco Giallombardo](https://github.com/Mrcgllmbrd)
 
+  <img src="https://komarev.com/ghpvc/?username=mrcgllmbrd&label=Profile%20views&color=0e75b6&style=flat" />
 
 
