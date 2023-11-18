@@ -10,7 +10,7 @@
 ⚡ Fun fact: I've never liked cats... Now I'm in love with my kitten Clara 🤦🏻‍♂️ <br></br>
 </br>
 
-<h3> Current stuff where i'm focusing on now</h3>
+<h3> Current stuff where i'm focusing on </h3>
 <p>
   <img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=orange&labelColor=black" height="30px">
   
@@ -27,8 +27,8 @@
 </br></br>
 
 
-<i>You can find me here:</i> <br>  
-<a href="https://www.linkedin.com/in/marco-giallombardo/" alt="Linkedin"><img src="https://github.com/nitish-awasthi/nitish-awasthi/blob/master/174857.png" height="30" width="30"></a>
+<i align = right >Connect with me:</i> <br>  
+<a align = right href="https://www.linkedin.com/in/marco-giallombardo/" alt="Linkedin"><img src="https://github.com/nitish-awasthi/nitish-awasthi/blob/master/174857.png" height="30" width="30"></a>
  
 
 <div align="center"> <img src="https://komarev.com/ghpvc/?username=mrcgllmbrd&label=Profile%20views&color=0e75b6&style=flat"/> </div>
