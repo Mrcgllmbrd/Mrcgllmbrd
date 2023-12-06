@@ -1,0 +1,10 @@
+@import url(/Assets/Design-rules/colors.css);
+@import url(/Assets/Design-rules/common-rules.css);
+@import url(/Assets/Design-rules/font.css);
+
+
+/* Atoms */ 
+@import url(/components/generic-buttons/bottoni-generici.css);
+@import url(/Components/play-price-card/play-price-card-pro.css);
+  
+

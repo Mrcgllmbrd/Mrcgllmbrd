@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/FS17-TEAM2-EAPROJECT/" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Assets/Common.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/Atoms/card-utlime-novità/card-ultim-novit.css"
+    />
+    <link rel="stylesheet" href="/EA-Play/Carousels/carousel-three-cards.css" />
+  </head>
+  <body>
+    <!-- Tree cards carousel -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="img-card-novita-container">
+            <img class="eapl-tile__image image-loaded" alt="" data-src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-play-trials-section-ufc-5-16x9.png.adapt.crop16x9.png" draggable="false" src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-play-trials-section-ufc-5-16x9.png.adapt.crop16x9.png" style="">
+          </div>
+          <div class="text-content">
+            <h4>EA SPORTS UFC 5</h4>
+            <p>Scopri la nuova evoluzione del gioco di combattimento</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-card-novita-container">
+            <img class="eapl-tile__image image-loaded" alt="" data-src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-play-trials-section-nhl-24-16x9.png.adapt.crop16x9.png" draggable="false" src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-play-trials-section-nhl-24-16x9.png.adapt.crop16x9.png" style="">
+          </div>
+          <div class="text-content">
+            <h4>EA SPORTS NHL 24</h4>
+            <p>Vivi un'autentica esperienza sul ghiaccio</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-card-novita-container">
+           <img class="eapl-tile__image image-loaded" alt="" data-src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-play-trials-section-eas-fc-24-16x9.png.adapt.crop16x9.png" draggable="false" src="https://media.contentapi.ea.com/content/dam/eacom/common/ea-play-trials-section-eas-fc-24-16x9.png.adapt.crop16x9.png" style="">
+          </div>
+          <div class="text-content">
+            <h4>EA SPORTS FC 24</h4>
+            <p>Vivi una nuova era del gioco più bello del mondo</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-card-novita-container">
+           <img class="eapl-tile__image image-loaded" alt="" data-src="https://media.contentapi.ea.com/content/dam/gin/images/2023/06/madden-24-keyart.jpg.adapt.crop16x9.jpg" draggable="false" src="https://media.contentapi.ea.com/content/dam/gin/images/2023/06/madden-24-keyart.jpg.adapt.crop16x9.jpg" style="">
+          </div>
+          <div class="text-content">
+            <h4>MADDEN NFL  24</h4>
+            <p>Mostra a tutti di cosa sei capace in Madden NFL 24</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-card-novita-container">
+           <img class="eapl-tile__image image-loaded" alt="" data-src="https://media.contentapi.ea.com/content/dam/eacom/common/f1-23-gametile-16x9-coming-soon.jpg.adapt.crop16x9.jpg" draggable="false" src="https://media.contentapi.ea.com/content/dam/eacom/common/f1-23-gametile-16x9-coming-soon.jpg.adapt.crop16x9.jpg" style="">
+          </div>
+          <div class="text-content">
+            <h4>F1 2023</h4>
+            <p>Mettiti al volante di F1 23 per 5 ore</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="img-card-novita-container">
+           <img class="eapl-tile__image image-loaded" alt="" data-src="https://media.contentapi.ea.com/content/dam/eacom/common/eacom-coming-soon-smb4-featured-image-16x9.jpg.adapt.crop16x9.jpg" draggable="false" src="https://media.contentapi.ea.com/content/dam/eacom/common/eacom-coming-soon-smb4-featured-image-16x9.jpg.adapt.crop16x9.jpg" style="">
+          </div>
+          <div class="text-content">
+            <h4>Super Mega Baseball 4</h4>
+            <p>Lancia batti e ricevi e buttati in scivolata sulla casa base</p>
+          </div>
+        </div>
+                <div class="swiper-slide">
+          <div class="img-card-novita-container">
+           <img class="eapl-tile__image image-loaded" alt="" data-src="https://media.contentapi.ea.com/content/dam/gin/images/2021/04/ea-sports-pgatour-keyart.jpg.adapt.crop16x9.jpg" draggable="false" src="https://media.contentapi.ea.com/content/dam/gin/images/2021/04/ea-sports-pgatour-keyart.jpg.adapt.crop16x9.jpg" style="">
+          </div>
+          <div class="text-content">
+            <h4>EA SPORTS PGA TOUR </h4>
+            <p>Il campo è tuo in questa straordianria esperienza golfistica</p>
+          </div>
+        </div>
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+
+    </script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: false,
+        direction: "horizontal", // Imposta la direzione orizzontale
+        spaceBetween: 20, // Imposta lo spazio tra le slide
+        slidesPerView: 3,
+        slidesPerGroup: 2,
+
+        // If we need pagination
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        /*   scrollbar: {
+          el: ".swiper-scrollbar",
+          draggable: true,
+        }, */
+
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            spaceBetween: 15,
+          },
+
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          // when window width is >=  1032px
+          1032: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

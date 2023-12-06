@@ -1,0 +1,52 @@
+/* Homepage */
+@import url(/Homepage/gioca-ora/gioca-ora.css);
+@import url(/Homepage/giochi-in-evidenza/giochi-in-evidenza.css);
+@import url(/Homepage/navbar/nav.css);
+@import url(/Homepage/section-Ultime-Novità/cards-ultime-novita.css);
+@import url(/Homepage/tab-Ultime-Novità/Ultime-novità.css);
+@import url(/Homepage/section-iscriviti-subito/iscriviti-subito.css);
+@import url(/Homepage/alert/alert.css);
+@import url(/Homepage/footer/footer.css);
+ 
+#giochi-in-evidenza-h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: var(--ea-bold-font);
+}
+
+#ultime-novità-h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: var(--ea-bold-font);
+}
+
+.ultimi-giochi-btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.ultimi-giochi-btn > button {
+  transition: transform 0.2s ease-in-out;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.ultimi-giochi-btn:hover > button {
+  transform: scale(1.05);
+}
+
+.btn-scopri{
+  border-color: black;
+}
+
+/*  
+  padding-top: 1.2rem;
+    padding-right: 2.3rem;
+ padding-bottom: 1.2rem;
+padding-left: 2.3rem;
+  */

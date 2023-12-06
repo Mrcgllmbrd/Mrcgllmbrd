@@ -1,0 +1,81 @@
+
+
+
+.full-section {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  background-image: url(https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-grid-evergreen-hero-md-7x2-xl.jpg.adapt.crop7x2.1920w.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: content-box;
+}
+
+.section-iscriviti-subito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  width: 70%;
+  padding: 5rem 8rem 10rem 12rem;
+  z-index: 0;
+}
+
+.svg-EA-play {
+  flex-shrink: 0;
+  height: 101px;
+  width: 240px;
+}
+
+.paragraph-iscriviti-subito {
+  font-family: var(--ea-normal-font);
+  color: #fff;
+  font-size: 22px;
+  width: 70%;
+}
+
+.scopri-di-più {
+  width: 100%;
+  background-color: #6fb0d6;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scopri-di-più button {
+  height: 50%;
+}
+
+.scopri-di-più h2 {
+  width: 30%;
+  font-family: var(--ea-bold-font);
+  font-size: 24px;
+}
+
+.paragraph-iscriviti-subito > button {
+  color: white;
+  border-color: white;
+  height: 2rem;
+ 
+}
+
+@media (max-width: 768px) {
+  .section-iscriviti-subito {
+    padding: 1rem;
+  }
+  .full-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .paragraph-iscriviti-subito {
+    width: 100%;
+    text-align: left;
+  }
+  .svg-EA-play {
+  flex-shrink: 0;
+  height: 101px;
+  width: 240px;
+}
+}

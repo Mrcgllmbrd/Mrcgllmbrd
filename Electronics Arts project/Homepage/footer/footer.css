@@ -1,0 +1,469 @@
+.footer-top-section-all {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 6.5rem;
+  background-color: #EAEAEA;
+}
+
+.footer-top-container {
+  display: inline;
+  width: 70%;
+}
+
+#footer-limitazioni {
+  font-size: 14px;
+}
+
+#footer-termini-ea-play {
+  color: red;
+}
+
+.footer-top-links-container {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.footer-local-links-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.footer-local-links-container a {
+  color: black;
+}
+
+.footer-local-links-container a:hover {
+  color: red;
+}
+
+.footer-social-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30%;
+  font-family: Electronic Arts Text Bold;
+  margin-top: -15px;
+}
+
+.footer-social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#facebook-icon-container:hover,
+#twitter-icon-container:hover,
+#youtube-icon-container:hover,
+#instagram-icon-container:hover,
+#twitch-icon-container:hover {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.2);
+
+}
+
+.footer-bottom-section-all {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  background-color: white;
+}
+
+.footer-bottom-container {
+  display: inline;
+  width: 70%;
+}
+
+.footer-bottom-links-container {
+  display: flex;
+}
+
+.ea-logo-footer-container {
+  display: flex;
+  width: fit-content;
+  margin-right: 2rem;
+}
+
+#ea-logo-violet-footer {
+  width: 4rem;
+  height: 4rem;
+}
+
+#ea-logo-violet-footer:hover {
+  cursor: pointer;
+}
+
+.footer-bottom-local-links-container {
+  display: flex;
+  flex-wrap: wrap;
+/*   position: absolute; */
+  font-size: 17px;
+  width: 41.5%;
+  gap: 3.3rem;
+  margin-top: 0.8rem;
+}
+
+.footer-bottom-local-links-container a {
+  color: black;
+  margin-bottom: -1rem;
+}
+
+.footer-bottom-buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  gap: 8rem;
+  position: relative;
+}
+
+.button-square-transparent {
+  border: 2px solid #C2C2C2;
+
+}
+
+#footer-button-prices {
+    width: 12rem;
+  height: 4rem;
+  background-color: transparent;
+      position: absolute;
+    right: 13.5rem;
+    color: black;
+}
+
+#footer-button-language {
+  position: relative;
+    width: 12rem;
+  height: 4rem;
+  background-color: transparent;
+  color: black;
+}
+
+#footer-button-prices:hover {
+  cursor: initial;
+  transform: scale(1.02);
+}
+
+.sub-menu-container {
+  display: flex;
+  border: 3px solid #C2C2C2;
+  background-color: white;
+  border-radius: 3px;
+}
+
+#sub-menu-regional-pricing {
+
+  display: none;
+  position: absolute;
+  bottom: 80px;
+  right: 190px;
+}
+
+.show-sub-menu {
+  display:block
+}
+
+#sub-menu-language {
+  display: none;
+  position: absolute;
+  bottom: 85px;
+  left: 40px;
+
+}
+
+.regional-pricing-selector-column {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#regional-column-4 {
+  padding-right: 2rem;
+}
+
+.regional-pricing-selector-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  width: 10rem;
+  font-size: 15px;
+  margin-left: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #EAEAEA;
+}
+
+.regional-pricing-selector-item-text {
+  margin-left: 0.5rem;
+  padding-right: 5rem;
+}
+
+#fr-flag {
+  margin-right: -4.5rem;
+  margin-left: 0rem;
+}
+
+#ita-flag {
+  height: 90%;
+  width: 1.1rem;
+  margin-top: 0.3rem;
+  margin-right: 0.6rem;
+}
+
+.regional-pricing-selector-item-text:hover {
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+#footer-button-language:hover {
+  cursor: initial;
+  transform: scale(1.02);
+}
+
+.footer-regional-pricing-label {
+  margin-left: -1.5rem;
+  margin-top: -0.7rem;
+  margin-bottom: 0.2rem;
+  color: #5A5A58;
+}
+
+.footer-regional-pricing-selector {
+  display: flex;
+  margin-left: -1.2rem;
+  width: 10rem;
+}
+
+.footer-regional-pricing-selected-text {
+  padding-right: 6.9rem;
+}
+
+.footer-language-label {
+  text-align: left;
+  margin-left: -1.2rem;
+  margin-top: -0.7rem;
+  margin-bottom: 0.2rem;
+  color: #5A5A58;
+}
+
+.footer-language-selector {
+  display: flex;
+  margin-left: -1.2rem;
+  width: 10rem;
+}
+
+.footer-language-selected-text {
+  padding-right: 5rem;
+}
+
+.footer-bottom-second-links-container {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.footer-bottom-second-links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 41.5%;
+  gap: 2rem;
+  margin-left: 6rem;
+}
+
+.footer-bottom-second-links a {
+  color: black;
+  margin-bottom: -3rem;
+}
+
+.footer-bottom-second-links p {
+  margin-top: 0.8rem;
+}
+
+.footer-bottom-truste-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+}
+
+#truste-logo-footer {
+  width: 9rem;
+}
+
+#truste-logo-footer:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1032px) {
+  .footer-top-container {
+    width: 85%;
+  }
+
+  .footer-bottom-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ea-logo-footer-container {
+    width: 11%;
+    justify-content: center;
+  }
+
+  #ea-logo-violet-footer {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .footer-local-links-container {
+    flex-wrap: wrap;
+    width: 63%;
+  }
+
+  #footer-partecipa-alla-conversazione {
+    font-size: 14px;
+  }
+
+  .footer-social-links-container {
+    width: 37%;
+  }
+
+  .footer-social-links {
+    gap: 1.55rem;
+  }
+
+  .footer-bottom-local-links-container {
+    font-size: 16px;
+    gap: 3.5rem;
+  }
+
+  .footer-bottom-local-links-container a {
+    margin-bottom: -2.5rem;
+  }
+
+  .footer-bottom-buttons {
+    width: 50%;
+    justify-content: flex-end;
+  }
+
+  #footer-button-prices {
+    position: absolute;
+    left: -0.8rem;
+  }
+
+  #footer-button-language {
+    position: absolute;
+    margin-right: 1rem;
+  }
+
+  .footer-bottom-second-links-container {
+    margin-top: 2.5rem;
+  }
+
+  .footer-bottom-second-links {
+    font-size: 14px;
+    margin-left: 5.9rem;
+    width: 60%;
+  }
+
+  .footer-bottom-second-links p {
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-top-links-container {
+    flex-direction: column;
+  }
+
+  .footer-local-links-container {
+    width: 82%;
+  }
+
+  .footer-local-links-container a {
+    margin-bottom: 1rem;
+  }
+
+  .footer-social-links-container {
+    align-items: flex-start;
+  }
+
+  .ea-logo-footer-container {
+    display: flex;
+    width: 8.5%;
+  }
+
+  .footer-bottom-links-container {
+    flex-direction: column;
+  }
+
+  #ea-logo-violet-footer {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .footer-bottom-local-links-container {
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .footer-bottom-buttons {
+    width: 100%;
+    margin-top: 2.5rem;
+    margin-left: 0.8rem;
+  }
+
+  #footer-button-prices {
+    width: 46.5%;
+    text-align: left;
+  }
+
+  .footer-regional-pricing-label,
+  .footer-regional-pricing-selector {
+    margin-left: -0.2rem;
+  }
+
+  .footer-regional-pricing-selected-text {
+    padding-right: 13.5rem;
+  }
+
+  #footer-button-language {
+    width: 46.5%;
+  }
+
+  .footer-language-label,
+  .footer-language-selector {
+    margin-left: -0.2rem;
+  }
+
+  .footer-language-selected-text {
+    padding-right: 11.5rem;
+  }
+
+  .footer-regional-pricing-selector, 
+  .footer-language-selector {
+    width: 110%;
+  }
+
+  .footer-bottom-second-links-container {
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+
+  .footer-bottom-second-links {
+    margin-left: 0rem;
+    width: 105%;
+  }
+
+  .footer-bottom-second-links p {
+    margin-top: 2rem;
+    margin-left: -9.3rem;
+  }
+
+  .footer-bottom-truste-container {
+    justify-content: flex-start;
+  }
+}

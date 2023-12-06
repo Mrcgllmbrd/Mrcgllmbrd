@@ -1,0 +1,69 @@
+
+
+/* RULES */
+html {
+  min-height: 100%;
+  height: 100%;
+  font-family: 'Electronic Arts Text';
+}
+
+body {
+  all: unset;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  background: var(--background-site);
+  box-sizing: border-box;
+ 
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding-inline-start: 0;
+}
+span {
+  height: fit-content;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+}
+
+a:visited {
+  color: inherit
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+input:focus, input {
+  color: white;
+}

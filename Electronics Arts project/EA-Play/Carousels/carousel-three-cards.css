@@ -1,0 +1,167 @@
+/* CAROUSEL ELEMENT */
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 70%;
+  fill: white;
+  color: white;
+  justify-items: center;
+}
+
+.swiper-button-next {
+  padding-right: 15rem;
+}
+
+.swiper-button-prev {
+  padding-left: 15rem;
+}
+
+.swiper-three-cards {
+  width: 60%;
+}
+
+.swiper {
+  min-height: 600px;
+  padding-top: 1rem;
+  background-color: transparent;
+  z-index: 0;
+  min-width: 1200px;
+}
+
+/*  INIZIO CARD */
+.swiper-slide {
+  height: fit-content;
+  margin-bottom: 16px;
+  animation: dropDefault 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  overflow-wrap: anywhere;
+  align-items: center;
+  box-shadow: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-content p {
+  text-align: center;
+  font-size: 20px;
+  margin-inline: auto;
+  margin: 0;
+  color: white;
+}
+
+.text-content h4 {
+  color: var(--logo-EA-play);
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 6px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-inline: auto;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 1032px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 70%;
+  }
+  .swiper {
+    min-width: 85%;
+    height: 500px;
+  }
+
+  .swiper-slide {
+    margin-bottom: 4px;
+    width: 50%;
+  }
+
+  .text-content {
+    max-width: 400px;
+  }
+  .text-content p {
+    text-align: center;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 85%;
+  }
+
+  .swiper-button-next {
+    padding-right: 5rem;
+  }
+
+  .swiper-button-prev {
+    padding-left: 5rem;
+  }
+
+  .swiper {
+    min-width: 86%;
+    height: 650px;
+  }
+
+  .img-card-novita-container img {
+    display: block;
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    margin-inline: auto;
+  }
+
+  .text-content h4 {
+    color: var(--logo-EA-play);
+    font-size: 30px;
+  }
+  .text-content p {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  
+  .swiper {
+    min-width: 100%;
+    margin: 0;
+   
+  }
+  .text-content {
+    height: fit-content;
+    min-width: 100%;
+  }
+
+  .swiper-slide {
+    min-width: 100vw !important;
+  height: 300px !important;
+  margin-bottom: 16px;
+  margin-left: 0;
+  padding: 0;
+  
+}
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 75%;
+    fill: white;
+    color: white;
+    justify-items: center;
+  }
+
+ 
+}

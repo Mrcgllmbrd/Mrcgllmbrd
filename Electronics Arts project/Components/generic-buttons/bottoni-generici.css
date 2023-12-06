@@ -1,0 +1,73 @@
+.button-square-transparent {
+  font-family: var(--ea-normal-font);
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 2px;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+ 
+}
+
+
+.button-round-colored {
+  font-family: var(--ea-normal-font);
+  font-size: 16px;
+  color: black;
+  border: 1px solid var(--button-gioca-ora);
+  background-color: var(--button-gioca-ora);
+  border-radius: 35px;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+@media (max-width: 1032px) {
+  .button-round-colored {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .button-square-transparent{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-round-colored {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .button-square-transparent{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .button-round-colored {
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+
+  .button-square-transparent{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+  }
+}

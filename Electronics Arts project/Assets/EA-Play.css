@@ -1,0 +1,184 @@
+/* EA Play */
+@import url(/EA-Play/Carousels/carousel-full-width.css);
+@import url(/EA-Play/Carousels/carousel-three-cards.css);
+@import url(/EA-Play/navbar/navbar.css);
+@import url(/Homepage/gioca-ora/gioca-ora.css);
+@import url(/EA-Play/right-Sidebar/side.css);
+@import url(/EA-Play/novitaeaplay/novitaeaplay.css);
+@import url(/Components/play-price-card/play-price-card-pro.css);
+@import url(/EA-Play/section-prices-cards/section-prices.css);
+@import url(/EA-Play/Form/form.css);
+ @import url(/Homepage/footer/footer.css);
+
+body {
+    background-color: #0D1042;
+  
+
+}
+
+.sticky-container {
+  position: fixed;
+  z-index: -100;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: hsla(237, 67%, 15%, 1);
+  background: linear-gradient(
+    26deg,
+    hsla(237, 67%, 15%, 1) 40%,
+    hsla(3, 84%, 59%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    45deg,
+    hsla(237, 67%, 15%, 1) 90%,
+    hsla(3, 84%, 59%, 1) 90%
+  );
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* GIOCA ORA */
+.gioca-ora-container-EA {
+  background-color: transparent;
+  margin-top: 2rem;
+  min-height: 500px;
+}
+
+.left-side-EA img {
+  width: 90%;
+  flex: 1 0 100%;
+}
+.ea-sports {
+  font-size: 36px;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
+.right-side-EA img {
+  min-width: 60vw;
+  height: 100%;
+}
+
+.button-square-transparent {
+  background-color: var(--logo-EA-play);
+  color: white;
+  font-size: 20px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-right: 1.2rem;
+  padding-left: 1.2rem;
+  border-radius: 4px;
+}
+
+.ricompense-text-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 1032px) {
+  .ricompense-text-btn-container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+.ricompense-text-btn-container > h1 {
+  font-family: var(--ea-bold-font);
+  color: white;
+}
+
+.ricompense-text-btn-container > button {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+}
+
+#versioni-di-prova-text {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5rem;
+  width: 70%;
+  margin-inline: auto;
+}
+
+.carousel-container-three-cards {
+  width: 100vw;
+}
+
+.section-sales-november {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10rem 0 5rem;
+  min-height: 96px;
+  align-items: center;
+  margin-bottom: 6rem;
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(237, 67%, 15%, 0.1) 1%,
+    rgba(238, 72, 63, 0.834) 90%
+  );
+}
+
+.section-sales-november h2 {
+  color: white;
+  font-size: 22px;
+  width: 40%;
+  margin: 0;
+}
+
+.btn-sales {
+  background-color: transparent;
+  width: fit-content;
+  border-color: white;
+  cursor: pointer;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-sales:hover {
+  transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+@media (max-width: 900px) {
+  .section-sales-november {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  .section-sales-november h2 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .gioca-ora-container-EA {
+    background-color: transparent;
+    margin-top: 6rem;
+    min-height: 500px;
+  }
+#versioni-di-prova-text {
+  padding-left: 0;
+  text-align: center;
+}
+.ricompense-text-btn-container > h1 {
+  text-align: center;
+}
+  
+}

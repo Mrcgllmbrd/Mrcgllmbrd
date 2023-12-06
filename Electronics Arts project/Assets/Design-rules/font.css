@@ -1,0 +1,26 @@
+/* FONT */
+@font-face {
+    font-family: "Electronic Arts Text";
+    src: url("https://db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot");
+    src: url("https://db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/48656eabd3fef6464367d956315c749a.svg#Electronic Arts Text")format("svg");
+}@import url(https://db.onlinewebfonts.com/c/48656eabd3fef6464367d956315c749a?family=Electronic+Arts+Text);
+
+@font-face {
+    font-family: "Electronic Arts Text Bold";
+    src: url("https://db.onlinewebfonts.com/t/cb2c6807809e3f956c87a1773338186e.eot");
+    src: url("https://db.onlinewebfonts.com/t/cb2c6807809e3f956c87a1773338186e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/cb2c6807809e3f956c87a1773338186e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/cb2c6807809e3f956c87a1773338186e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/cb2c6807809e3f956c87a1773338186e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/cb2c6807809e3f956c87a1773338186e.svg#Electronic Arts Text Bold")format("svg");
+}
+
+:root {
+  --ea-normal-font: "Electronic Arts Text";
+  --ea-bold-font: "Electronic Arts Text Bold";
+  --fon-size: "16px"
+}

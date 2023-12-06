@@ -1,0 +1,92 @@
+.section-giochi-in-evidenza {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  grid-auto-flow: column;
+
+  gap: 1.8rem;
+  width: 100%;
+  margin-inline: auto;
+ 
+}
+.card-giochi-in-evidenza {
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25rem;
+  width: 25rem;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.gradient {
+  position: absolute;
+  z-index: 1;
+  background: rgb(13, 16, 66);
+  background:var(--gradient-giochi-in-evidenza);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.gradient:hover {
+  opacity: 0.95;
+  transition: opacity 0.3s;
+}
+
+.logo-giochi-in-evidenza {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  height: 3rem;
+  align-self: center;
+  justify-content: center;
+  z-index: 3;
+  height: 2rem;
+  width: 6.5rem;
+  transition: top 0.8s;
+}
+.card-giochi-in-evidenza:hover .logo-giochi-in-evidenza {
+  top: 30%;
+  transition: top 0.8s;
+}
+.card-giochi-in-evidenza p {
+  display: none;
+  color: white;
+  z-index: 3;
+}
+.card-giochi-in-evidenza:hover p {
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 2;
+}
+
+.background-img-container img {
+  width: 25rem;
+  height: 25rem;
+}
+
+
+@media (max-width:1032px) {
+
+.section-giochi-in-evidenza {
+
+  grid-template-rows: repeat(3, 1fr);
+
+}
+
+}
+
+@media (max-width:768px) {
+  .section-giochi-in-evidenza {
+
+  grid-template-rows: repeat(6, 1fr);
+  
+ 
+}
+}

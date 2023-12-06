@@ -1,0 +1,176 @@
+.right-sidecard-container {
+  max-width: 500px;
+  height: 100%;
+  background-color: #0d1042;
+  z-index: 999999999;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transform: translateX(0);
+  transition: all 0.5s cubic-bezier(0.8, 0.76, 0.15, 0.84);
+  overflow-y: auto;
+}
+
+.right-active {
+  right: 0;
+}
+.right-sidecard-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem 0rem 2rem;
+  align-items: start;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+}
+
+.right-sidecard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  position: relative;
+  padding: 0rem 2rem 0 2rem;
+}
+
+#main-logo-right-side {
+  display: block;
+  width: 100%;
+}
+
+#main-logo-side-inner {
+  max-width: 40%;
+}
+
+.right-sidecard-header h3 {
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.right-sidecard-header p {
+  color: rgb(168, 168, 168);
+}
+
+.right-sidecard p {
+  color: white;
+}
+
+.items-right-side,
+.items-abbonamenti {
+  width: 100%;
+  height: 70px;
+  border: 1px solid;
+  margin-bottom: 1rem;
+  background-color: #353862;
+}
+
+.items-right-side {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 2rem 0 2rem;
+ color: white;
+}
+.items-right-side + p {
+  color: rgb(168, 168, 168);
+}
+.logo-on-items {
+  height: 50px;
+  width: 60px;
+ 
+}
+
+
+#seleziona-per-procedere {
+  text-align: center;
+  width: 100%;
+}
+
+
+.items-abbonamenti-container {
+  display: none;
+  width: 100%;
+}
+
+.show-abb-container {
+  display: block;
+}
+
+
+.items-abbonamenti-container p + h3 {
+  color: white;
+}
+
+.items-abbonamenti {
+  height: 200px;
+  padding: 0 2rem 0 2rem;
+  cursor: pointer;
+}
+
+.items-abbonamenti
+h3
+p {
+  color: white;
+}
+
+.items-abbonamenti div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.price-paragraph {
+text-align: end;
+margin: 0;
+}
+
+.items-abbonamenti > div > span {
+  border: green 1px solid;
+  border-radius: 90px;
+  padding: 1px;
+  background-color: rgb(85, 250, 85);
+  color: rgb(0, 0, 0);
+
+}
+
+
+ .items-abbonamenti ~ h4 {
+  color: var(--logo-EA-play)
+ }
+
+ .items-abbonamenti ~ h4:hover {
+  text-decoration: underline;
+ }
+
+.items-right-side:hover,
+.items-abbonamenti:hover {
+  border-color: var(--logo-EA-play);
+}
+
+.items-right-side:focus {
+  outline: solid 3px var(--logo-EA-play) !important;
+
+
+}
+
+
+@media (max-width: 468px) {
+  .right-sidecard-container {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 999999999;
+    position: fixed;
+    top: 0;
+    right: -10000px;
+    transform: translateX(0);
+    transition: all 0.5s cubic-bezier(0.8, 0.76, 0.15, 0.84);
+    overflow-y: auto;
+  }
+
+  .right-active {
+    min-width: 100vw;
+    right: 0;
+  }
+}

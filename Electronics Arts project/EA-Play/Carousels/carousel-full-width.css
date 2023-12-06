@@ -1,0 +1,139 @@
+/* CAROUSEL ELEMENT */
+.carousel-container-full-width {
+  width: 100%;
+  min-height: 800px;
+
+
+}
+.swiper-button-prev-2,
+.swiper-button-next-2 {
+  top: 80% !important;
+  fill: white;
+  color: white;
+  justify-items: center;
+}
+
+.swiper-button-next-2 {
+  padding-right: 15rem;
+}
+
+.swiper-button-prev-2 {
+  padding-left: 15rem;
+}
+
+
+
+
+.swiper2{
+  width: 100% !important;
+  min-height:660px;
+  padding-top: 1rem;
+  background-color:   transparent;
+  z-index: 0;
+}
+/*  INIZIO CARD */
+.swiper-slide {
+  min-width: 380px !important;
+
+  animation: dropDefault 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content-2 {
+  padding: 8px 4px 4px 4px;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%;
+  line-height: 1;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-content-2 p {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+.text-content-2 h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.text-content-2 h4 {
+  color: var(--logo-EA-play);
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: 900;
+  margin-inline: auto;
+}
+
+@media (max-width: 1032px) {
+  .swiper {
+    width: 80%;
+    height: 500px;
+  }
+
+  .swiper-slide {
+    margin-bottom: 4px;
+    width: 50%;
+  }
+
+  .text-content-2 p {
+    text-align: center;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-button-prev-2,
+  .swiper-button-next-2 {
+    top: 85% !important;
+  }
+
+  .swiper-button-next-2 {
+    padding-right: 5rem;
+  }
+
+  .swiper-button-prev-2 {
+    padding-left: 5rem;
+  }
+
+  .swiper {
+    width: 86%;
+    height: 690px;
+  }
+
+  
+  .swiper-slide {
+    margin-bottom: 4px;
+    min-width: 100vw !important;
+    
+  }
+
+  .img-card-novita-container img {
+    display: block;
+  }
+
+  .text-content-2 {
+    width: 100%;
+    
+
+    overflow-wrap: anywhere;
+    align-items: center;
+    box-shadow: none;
+    background-color: white;
+    box-sizing: border-box;
+  }
+
+  .text-content-2 h4 {
+    color: var(--logo-EA-play);
+    font-size: 30px;
+  }
+  .text-content-2 p {
+    display: block;
+  }
+}

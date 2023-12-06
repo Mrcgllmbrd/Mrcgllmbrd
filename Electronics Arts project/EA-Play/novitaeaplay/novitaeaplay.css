@@ -1,0 +1,204 @@
+#novitaEaplay-playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.novitaEaplay-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+}
+
+#novitaEaplay-playlist h1 {
+  margin-right: 14rem;
+  color: white;
+  font-size: 1.7rem;
+}
+
+.sfoglia {
+  margin-left: 13rem;
+  
+
+}
+.sfoglia,
+.versioniProva,
+.ricompense,
+.thePlayList {
+  border-radius: 3px;
+  border-color: white;
+  color: white;
+  font-size: 1rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.9rem;
+  padding-top: 0.9rem;
+  background-color: transparent !important;
+}
+
+.novitaEaplay-playlist-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-right: 12rem;
+  padding-left: 12rem;
+}
+
+#playlist-F1-image,
+#playlist-battlefield-image {
+  max-width: 30rem;
+  text-align: center;
+}
+
+#playlist-F1-image img,
+#playlist-battlefield-image img {
+  max-width: 100%;
+}
+
+.novitaEaplay-playlist-image p {
+  color: var(--logo-EA-play);
+  margin-top: 1.3rem;
+}
+
+.novitaEaplay-playlist-image h1 {
+  color: white;
+  margin-top: -0.8rem;
+}
+
+#whatisEaplay-title {
+  display: grid;
+  flex-wrap: wrap;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: -2rem;
+  color: white;
+  font-size: 1.7rem;
+  grid-template-rows: repeat(1, 1fr);
+}
+
+#whatisEaplay {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.whatisEaplay-options {
+  display: grid;
+  width: 280px;
+  margin: 0.5rem;
+  text-align: left;
+}
+
+.whatisEaplay-options h1
+p {
+  color: white;
+}
+
+.whatisEaplay-options h1 {
+  font-size: 1.5rem;
+}
+
+.whatisEaplay-options p {
+  font-size: 1.1rem;
+}
+
+.versioniProva {
+  margin-top: 1rem;
+}
+
+.ricompense {
+  margin-top: 5.35rem;
+}
+
+.thePlayList {
+  margin-top: 6.9rem;
+}
+
+.sconto {
+  margin-top: 6.9rem;
+  border-radius: 3px;
+  border-color: white;
+  color: white;
+  font-size: 1rem;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  padding-bottom: 0.9rem;
+  padding-top: 0.9rem;
+    background-color: transparent !important;
+
+}
+
+@media (max-width: 1365px) {
+  .sfoglia {
+    margin-left: -10rem;
+  }
+
+  #whatisEaplay-title {
+    margin-left: -2rem;
+  }
+}
+
+@media (max-width: 1032px) {
+  #whatisEaplay {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .novitaEaplay-playlist-image {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  #novitaEaplay-playlist h1 {
+    font-size: 1.5rem;
+  }
+
+  #whatisEaplay-title {
+    font-size: 1.5rem;
+  }
+
+  .whatisEaplay-options h1 {
+    font-size: 1.3rem;
+  }
+
+  .whatisEaplay-options p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .novitaEaplay-playlist-image img {
+    max-width: 500%;
+  }
+
+  #whatisEaplay-title {
+    font-size: 1.5rem;
+  }
+
+  #whatisEaplay {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 5rem;
+  }
+
+  .ricompense,
+  .thePlayList,
+  .sconto {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #whatisEaplay {
+    padding-left: 2rem;
+  }
+}

@@ -1,0 +1,20 @@
+/* COLORS */
+:root {
+  --background-site:#F3F3F3;
+  --footer-font: #a3a3a3;
+  --footer-background: #161010;
+  --card-color: #f1f1f1;
+  --logo-EA-play: #ff4747;
+  --top-navbar: #161616;
+  --logo-EA-navbar: #797979;
+  --icon-image-background-gradient: #ff0044;
+  --form-error: #ff6969;
+  --label-EA-play: #0d1042;
+  --gradient-variation1: #5e6081;
+  --gradient-variation2: #aeafc0;
+  --button-label-image: #ff0044;
+  --button-gioca-ora: #07F468;
+  --gradient-giochi-in-evidenza: linear-gradient(90deg, rgba(13,16,66,1) 4%, rgba(255,71,71,1) 100%);
+  }
+
+
