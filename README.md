@@ -1,5 +1,5 @@
 <h1> Hello githubers!👋</h1>  <br />
-<p align = right> 🤯 &nbsp My life since I discovered coding:</p>
+<p align = right> 🤯 &nbsp My life since I discovered the code:</p>
 <img src="https://github.com/Mrcgllmbrd/Mrcgllmbrd/assets/142672645/c2b3113b-4a85-449c-8e6b-fd5b0973a5a6" alt="Marco Giallombardo img" width="400" height="200" align="right" /> 
 
 
@@ -10,7 +10,7 @@
 ⚡ Fun fact: I've never liked cats... Now I'm in love with my kitten Clara 🤦🏻‍♂️ <br></br>
 </br>
 
-<h3> Current stuff where i'm focusing on now</h3>
+<h3> Current stuff where i'm focusing on </h3>
 <p>
   <img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=orange&labelColor=black" height="30px">
   
@@ -26,15 +26,11 @@
 </p>
 </br></br>
 
-<p align="center">
-  <i>Contacts</i> <br>  
-  
-  <p align="center">
-  <a href="https://www.linkedin.com/in/marco-giallombardo/" alt="Linkedin"><img src="https://github.com/nitish-awasthi/nitish-awasthi/blob/master/174857.png" height="30" width="30"></a>
+
+<i align = right >Connect with me:</i> <br>  
+<a align = right href="https://www.linkedin.com/in/marco-giallombardo/" alt="Linkedin"><img src="https://github.com/nitish-awasthi/nitish-awasthi/blob/master/174857.png" height="30" width="30"></a>
  
-  </p>
 
-⭐️ From [Marco Giallombardo](https://github.com/Mrcgllmbrd)
-
+<div align="center"> <img src="https://komarev.com/ghpvc/?username=mrcgllmbrd&label=Profile%20views&color=0e75b6&style=flat"/> </div>
 
 
