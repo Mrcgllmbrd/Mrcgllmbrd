@@ -1,0 +1,49 @@
+.container-comeFunziona {
+  background-color: white;
+  max-width: 80rem;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.title-comeFunziona {
+  padding-top: -2rem;
+  margin-top: 7rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.content-comeFunziona {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 1280px) {
+  .container-comeFunziona {
+    max-width: 60rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-comeFunziona {
+    max-width: 45rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-comeFunziona {
+    padding: 0.7rem;
+  }
+
+  .content-comeFunziona {
+    font-size: 0.9rem;
+  }
+}

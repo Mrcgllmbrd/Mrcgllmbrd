@@ -1,0 +1,28 @@
+.user-dashboard-container{
+  padding: 3rem;
+  margin-top: 6rem;
+}
+
+.schedeAndCalendar-container{
+  margin-top: 4rem;
+  width: 70%;
+}
+.chart-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height:30vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+  height:60vw;
+  display: flex;
+  justify-content: center;
+}
+.user-dashboard-container{
+  padding: 5rem 1rem 2rem 1rem;
+
+}
+}

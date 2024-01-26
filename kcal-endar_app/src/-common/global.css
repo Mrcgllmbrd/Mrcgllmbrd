@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* ---------------------
+ generic rules
+ ----------------------- */
+:root {
+  --custom-font: "Lato", sans-serif;
+}
+
+body {
+  font-size: 15px;
+  margin: 0;
+  font-family: var(--custom-font);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------------------
+COLORS
+----------------------- */
+:root {
+  --light-grey: #ffffffbf;
+  --white-secondary: #f5f5f5;
+  --light-yellow: #ffef78;
+  --aviation-blue: #235789;
+  --dark-avio-blue: #163a5b;
+  --light-blue: #63c9b4;
+  --tangerine: #ff9f1c;
+  --light-pink: #eb92be;
+}
+
+/* ---------------------
+MEDIA QUERIES 
+------------------*/
+:root {
+  --mobile-ah: 480px;
+  --tablet: 768px;
+  --notebook: 1280px;
+  --monitor: 1920px;
+  --4k: 2560px;
+}
+
+/* ---------------------
+ICONS&LOGO SIZES
+----------------------- */
+:root {
+  --mini-logo: 15px;
+}

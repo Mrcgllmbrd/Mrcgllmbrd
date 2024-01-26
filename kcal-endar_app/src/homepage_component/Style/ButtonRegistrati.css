@@ -1,0 +1,39 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-container-registrati {
+  border-radius: 3rem;
+  width: 10rem;
+  /* 8rem */
+  text-align: center;
+  line-height: 2rem;
+  border: none;
+  background-color: var(--aviation-blue);
+  padding: 0.5rem;
+  font-size: 18px;
+}
+
+.button-container-registrati:hover {
+  background-color: var(--tangerine);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+/* Aggiunta media query per il bottone */
+
+@media (max-width: 1280px) {
+  .button-container-registrati {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-container-registrati {
+    padding: 1rem;
+    font-size: 20px;
+  }
+}

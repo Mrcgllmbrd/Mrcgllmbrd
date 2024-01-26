@@ -1,0 +1,84 @@
+.title-container {
+  display: flex;
+  margin-right: 7rem;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 7rem;
+  border: none; */
+}
+
+.stepCardBlog {
+  margin-top: 5rem;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 6rem;
+  /* width: 24rem;
+   border-radius: 1rem;
+   padding: 1rem; */
+}
+
+.title-container .stepCardBlog {
+  margin-bottom: 20px;
+  border-color: transparent;
+}
+
+.title-container .card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; */
+}
+
+.title-container .card .card-title {
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.title-container .card .card-title span {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.card-blog-button {
+  border: none;
+  background-color: transparent;
+}
+
+
+
+@media (max-width: 1280px) {
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.1rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px; */
+  }
+
+  .stepCardBlog {
+    width: 65rem;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    /* width: 72rem;
+    height: 8rem;
+    border-radius: 1rem;
+    margin: 0 auto; */
+  }
+}

@@ -1,0 +1,153 @@
+#navbar-style {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 0.1rem;
+    background-color: var(--white-secondary) /* var(--green-yellow) */;
+    box-shadow: 3px 2px 30px #797979;
+    font-family: var(--custom-font);
+    font-size: 20px;
+}
+
+
+
+/* Media query da 2560px */
+
+@media screen and (max-width: 2560px) {
+
+    #navbar-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 17vw;
+    }
+
+    #navbar-brand-visible {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color:black !important;
+        text-transform: uppercase;
+    }
+
+    #navbar-brand-avatar {
+        margin-left: 8vw;
+    }
+
+    #navbar-logo {
+        width: 12vw;
+    }
+
+    .navbar-link:hover {
+        color: var(--aviation-blue) !important;
+        transform: scale(1.1);
+        transition: 500ms;
+    }
+
+}
+
+/* Media query da 1920px */
+
+@media screen and (max-width: 1920px) {
+
+    #navbar-brand-visible {
+        gap: 2vw;
+        font-size: 1rem;
+    }
+
+    #navbar-brand-avatar {
+        margin-left: 3vw;
+        scale: 0.7;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+}
+
+/* Media query 1280px */
+
+@media screen and (max-width: 1280px) {
+
+    
+    #navbar-collapse {
+        gap: 25vw;
+    }
+
+    #navbar-offcanvas {
+        background-color: var(--white-secondary);
+        opacity: 80%;
+    }
+
+    #navbar-logo {
+        width: 20vw;
+    }
+
+    .navbar-hamburger-menu {
+        width: 3vw;
+    }
+
+    #navbar-menu {
+        background: none !important;
+        border: none !important;
+    }
+
+    #navbar-title-menu {
+        font-weight: bold !important;
+        color: #feae34;
+        font-size: 2rem !important;
+    }
+
+    #navbar-brand-avatar{
+          display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar-link {
+        margin-left: 3vw;
+        color: black;            
+        text-transform: uppercase;
+    }
+
+    .navbar-link:hover {
+        color: var(--aviation-blue);
+        font-weight: bold;
+        transform: scale(1.1);
+        transition: 500ms;
+    }
+ 
+}
+
+/* Media query 768px */
+
+@media screen and (max-width: 768px) {
+
+    #navbar-collapse {
+        gap: 25vw;
+    }
+
+   
+}
+
+/* Media query 480px */
+
+@media screen and (max-width: 480px) {
+
+    #navbar-collapse {
+        margin-right: 15rem;
+        margin-left: 15rem;
+        gap: 18vw;
+    }
+
+    #navbar-logo {
+        width: 30vw;
+    }
+
+    .navbar-hamburger-menu {
+        width: 5vw;
+    }
+}

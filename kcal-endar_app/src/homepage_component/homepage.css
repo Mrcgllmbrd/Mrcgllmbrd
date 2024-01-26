@@ -1,0 +1,61 @@
+@media (max-width: 2560px) {
+    body {
+        background-image: url(../-assets/media/food-frame.png),
+            linear-gradient(320deg,
+                #eb92be,
+                #ffef78,
+                #63c9b4);
+        background-repeat: no-repeat;
+        background-size: 180%;
+        background-position: center;
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 1920px) {
+    body {
+        background-size: 220%;
+    }
+}
+
+
+
+@media (max-width: 1280px) {
+    body {
+        background-image: url(../-assets/media/food-frame-mobile.png),
+            linear-gradient(320deg,
+                #eb92be,
+                #ffef78,
+                #63c9b4);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: center;
+        height: auto;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: 250%;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(../-assets/media/food-frame-mobile.png),
+            linear-gradient(320deg,
+                #eb92be,
+                #ffef78,
+                #63c9b4);
+        background-repeat: no-repeat;
+        background-size: 350%;
+        background-position: center;
+        height: auto;
+    }
+}

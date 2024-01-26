@@ -1,0 +1,245 @@
+.loginSignup-container {
+  display: flex;
+  background-image: url(../../-assets/media/food-frame.png),
+    linear-gradient(320deg,
+      #eb92be,
+      #ffef78,
+      #63c9b4);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  /* background-color: #feae34; */
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3rem;
+}
+
+.loginSignup-container h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.loginSignup-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginSignup-container input {
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  outline: none;
+  border: none;
+  box-shadow: 0px 1px 5px;
+  max-width: 180px;
+  padding: 0.5rem
+}
+
+#login-button {
+  width: 120px;
+  height: 40px;
+  margin-inline: auto;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: var(--aviation-blue);
+}
+
+#login-button:hover {
+  background-color: var(--dark-avio-blue);
+  border: none;
+}
+
+#signup-button {
+  width: 120px;
+  height: 40px;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--aviation-blue);
+}
+
+#signup-button:hover {
+  background-color: var(--dark-avio-blue);
+  border: none;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-grey);
+  box-shadow: 10px 20px 50px var(--light-yellow);
+  height: 50%;
+  margin-inline: auto;
+  margin-top: 6.5rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  border-radius: 7%;
+  gap: 1.5rem;
+}
+
+.login-container {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-grey);
+  box-shadow: 10px 20px 50px var(--light-yellow);
+  margin-inline: auto;
+  margin-top: 12rem;
+  margin-bottom: 11rem;
+  padding: 2rem;
+  border-radius: 7%;
+  gap: 1.5rem;
+}
+
+.double-inp-signup-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.label-inp-signup-container {
+  display: flex;
+  flex-direction: column;
+}
+.signup-error-message {
+  color: red;
+}
+
+#password-reminder-text {
+  width: 80%;
+  font-size: 13px;
+
+}
+
+.login-link {
+  color: var(--aviation-blue);
+  text-decoration: none;
+}
+
+.login-link:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+/*Media query 1920px ------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1920px) {
+  .login-container {
+    width: 20%;
+    background-color: var(--light-grey);
+    box-shadow: 10px 20px 50px var(--light-yellow);
+  }
+
+  .login-container {
+    width: 27%;
+  }
+
+  .signup-container {
+    margin-top: 6.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/*Media query 1280px ------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 1280px) {
+  .loginSignup-container {
+    display: flex;
+    flex-direction: column;
+    background-size: 135%;
+  }
+
+  .login-container {
+    margin-top: 10.5rem;
+    margin-bottom: 10rem;
+    width: 40%;
+  }
+
+  .signup-container {
+    padding: 1.5rem;
+  }
+}
+
+/*Media query 768px ------------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .loginSignup-container {
+    display: flex;
+    flex-direction: column;
+    background-size: 185%;
+  }
+
+  .login-container {
+    margin-top: 10.5rem;
+    margin-bottom: 10rem;
+    width: 50%;
+  }
+
+  #login-button {
+    width: 100px;
+    margin-inline: 0;
+  }
+}
+
+ #userType-container {
+  display: flex !important;
+  margin: 0 !important;
+  gap: 0.5rem; 
+ 
+ }
+
+ .userType-labelAndInp input {
+  margin-bottom: 2rem !important;
+  margin-right: 0.5rem;
+  }
+.userType-labelAndInp label {
+    margin-right: 0.5rem;
+
+}
+
+@media (max-width: 480px) {
+  .loginSignup-container {
+    align-items: center;
+    background-image: url(../../-assets/media/food-frame-mobile.png),
+      linear-gradient(320deg, var(--light-pink), var(--light-yellow), var(--light-blue));
+    background-size: 125%;
+    background-position: center;
+  }
+
+  .signup-container form,
+  .signup-container {
+    align-items: center;
+  }
+
+  .login-container {
+    align-items: center;
+    border-radius: 20px;
+    width: 80%;
+  }
+
+  .signup-container {
+    border-radius: 20px;
+    padding: 1.5rem;
+  }
+
+  #login-button {
+    width: 100px;
+    margin-inline: auto;
+    
+  }
+
+  .double-inp-signup-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #password-reminder-text {
+    width: 50%;
+    line-height: 1.2;
+  }
+}

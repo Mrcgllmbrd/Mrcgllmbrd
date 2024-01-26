@@ -1,0 +1,119 @@
+@media screen and (max-width: 2560px) {
+    .whatisit-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        /* background-color: var(--white-secondary); */
+        max-width: 100%;
+    }
+
+    #whatisit-card {
+        display: flex;
+        align-items: center;
+        max-width: 200rem !important;
+        max-height: 100rem !important;
+        padding: 1.5rem;
+    }
+
+    .whatisit-card-body {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .whatisit-image {
+        display: flex;
+        justify-content: flex-start;
+        width: 25rem;
+        height: 19rem;
+    }
+
+    .whatisit-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 28rem;
+    }
+
+    .whatisit-title {
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:1920px) {
+    .whatisit-card {
+        max-width: 50rem !important;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .whatisit-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20rem;
+    }
+
+    .whatisit-card {
+        max-width: 40rem !important;
+        max-height: 34rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .whatisit-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        max-width: 100%;
+    }
+
+    .whatisit-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .whatisit-card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .whatisit-text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        width: 18rem;
+    }
+
+    .whatisit-card {
+        max-width: 25rem !important;
+        max-height: 34rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .whatisit-card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .whatisit-card {
+        max-width: 20rem !important;
+    }
+}

@@ -1,0 +1,113 @@
+@media (max-width: 2560px) {
+    .chi-siamo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-bottom: 5rem;
+        margin-top: 10rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        width: 80%;
+        background-color: white;
+    }
+
+    .chi-siamo-h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+
+    .chi-siamo-p-img {
+        padding: 3rem 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .chi-siamo-p {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 2.5rem 2rem;
+    }
+
+    .chi-siamo-p h3 {
+        padding-bottom: 1rem;
+    }
+
+    .chi-siamo-image {
+        width: 35%;
+    }
+
+    .chi-siamo-p-img-rev {
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1280px) {
+    .chi-siamo-container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .chi-siamo-h1 {
+        font-size: 2.5rem;
+    }
+
+    .chi-siamo-p-img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 1rem;
+    }
+
+    .chi-siamo-p {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding: 2rem 1rem;
+    }
+
+    .chi-siamo-image {
+        width: 45%;
+    }
+
+    .chi-siamo-p-img-rev {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .chi-siamo-p-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chi-siamo-p {
+        width: 80%;
+    }
+
+    .chi-siamo-p-img-rev {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .chi-siamo-image {
+        width: 70%;
+    }
+}

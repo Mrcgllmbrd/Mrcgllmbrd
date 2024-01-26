@@ -1,0 +1,7 @@
+:root {
+ --mobile: 480px;
+ --tablet: 768px;
+ --notebook: 1280px;
+ --monitor: 1920px;
+ --4k: 2560px;
+}

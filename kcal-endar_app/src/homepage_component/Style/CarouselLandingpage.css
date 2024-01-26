@@ -1,0 +1,153 @@
+.carousel-container {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 2560px) {
+    .carousel-image {
+        width: 100%;
+        height: 70rem;
+    }
+
+    #carousel-box-text {
+        padding-bottom: 10rem;
+        right: auto;
+        left: 18%;
+        max-width: 20rem;
+    }
+
+    #carousel-box-text1 {
+        padding-bottom: 10rem;
+        right: 18%;
+        left: auto;
+    }
+
+    #carousel-box-text2 {
+        padding-bottom: 10rem;
+        right: 40%;
+        left: auto;
+    }
+
+    #carousel-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: content-box;
+        border-radius: 10px;
+        background-color: var(--white-secondary);
+        opacity: 100%;
+        color: black;
+        padding: 2rem;
+        width: 30rem !important;
+        height: 15rem;
+        position: relative;
+        text-align: left;
+        font-size: 22px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
+
+/*Media query 1920px ------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1920px) {
+    .carousel-image {
+        width: 100%;
+        height: 40rem;
+    }
+
+    #carousel-text {
+        width: 20rem;
+        height: 10rem;
+    }
+}
+
+/*Media query 1280px ------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1280px) {
+    .carousel-image {
+        width: 100%;
+        height: 30rem;
+    }
+
+    #carousel-box-text {
+        padding-bottom: 4rem;
+    }
+
+    #carousel-box-text1 {
+        padding-bottom: 4rem;
+    }
+
+    #carousel-box-text2 {
+        padding-bottom: 4rem;
+    }
+
+    #carousel-text {
+        width: 15rem;
+        height: 10rem;
+        font-size: 18px;
+    }
+}
+
+/*Media query 768px ------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    .carousel-image {
+        width: 100%;
+        height: 30rem;
+    }
+
+    #carousel-box-text {
+        padding-bottom: 6rem;
+        right: auto;
+        left: 12%;
+    }
+
+    #carousel-box-text1 {
+        padding-bottom: 6rem;
+        right: 12%;
+        left: auto;
+    }
+
+    #carousel-box-text2 {
+        padding-bottom: 6rem;
+        right: 35%;
+        left: auto;
+    }
+
+    #carousel-text {
+        font-size: 14px;
+        padding: 1.5rem;
+        width: 10rem;
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-image {
+        height: 20rem;
+    }
+
+    #carousel-box-text {
+        padding-bottom: 2.5rem;
+        left: 10%;
+    }
+
+    #carousel-box-text1 {
+        padding-bottom: 2.5rem;
+        right: 10%;
+    }
+
+    #carousel-box-text2 {
+        padding-bottom: 2.5rem; 
+        right: 30%;
+        left: auto;
+    }
+
+    #carousel-text {
+        padding: 1rem;
+        width: 8rem;
+        height: 6rem;
+        font-size: 10px;
+    }
+}

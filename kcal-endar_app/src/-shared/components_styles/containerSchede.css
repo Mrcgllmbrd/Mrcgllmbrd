@@ -1,0 +1,11 @@
+.swiper {
+  margin-left: 0 !important;
+  height: auto;
+  padding-bottom: 0.5rem !important;
+  width: 100%;
+}
+
+.swiper-pagination {
+  bottom: var(--swiper-pagination-bottom, -5px) !important;
+}
+
