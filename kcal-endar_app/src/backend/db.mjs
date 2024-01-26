@@ -1,6 +1,9 @@
 import pgPromise from "pg-promise";
-
-const db = pgPromise()("postgres://postgres:postgres@localhost:5432/postgres");
+import * as dotenv from "dotenv";
+import process from "process";
+dotenv.config()
+const {PASSPOSTGRES} = process.env
+const db = pgPromise()(`postgres://postgres:${PASSPOSTGRES}@localhost:5432/postgres`);
 
 const setupDb = async () => {
   try {
