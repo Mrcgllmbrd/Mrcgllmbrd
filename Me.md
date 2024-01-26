@@ -4,13 +4,13 @@
 
 
 <h3> Who I am?</h3> 
-👤❓I'm an aspiring junior developer studying at a bootcamp school called Develhope. So you can consider me "devel-hoper" 😬<br></br>
-👯 I'm looking to collaborate with developers and aspiring developers to grow and learn together 💪  <br></br>
+👤❓I am a junior full-stack developer, not the best but the most tenacious and ambitious.<br></br>
+🛠️  I am working with my friends on a React application, it is a calorie tracking food diary.   <br></br>
 💬  My interests include books, work out, healthy nutrition, TV series, politics, and football <br></br>
-⚡ Fun fact: I've never liked cats... Now I'm in love with my kitten Clara 🤦🏻‍♂️ <br></br>
+⚡  I am currently studying PostgreSQL.  <br></br>
 </br>
 
-<h3> Current stuff where i'm focusing on </h3>
+<h3> i'm focusing on </h3>
 <p>
   <img src="https://img.shields.io/badge/HTML5-red?style=flat&logo=HTML5&logoColor=orange&labelColor=black" height="30px">
   
