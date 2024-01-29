@@ -25,7 +25,10 @@
   
   <img src="https://img.shields.io/badge/react-red?style=flat&logo=react&logoColor=aqua&labelColor=black" height="30px">
 
-   <img src="https://img.shields.io/badge/node.js-red?style=flat&logo=node.js&logoColor=white&labelColor=green" height="30px">
+  <img src="https://img.shields.io/badge/node.js-red?style=flat&logo=node.js&logoColor=white&labelColor=green" height="30px">
+  <img src="https://img.shields.io/badge/PostgreSQL-red?style=flat&logo=postgresql&logoColor=white&labelColor=blue" height="30px">
+
+   
 </p>
 </br></br>
 
