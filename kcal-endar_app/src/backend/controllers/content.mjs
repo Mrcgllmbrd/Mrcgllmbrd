@@ -4,8 +4,6 @@ dotenv.config();
 import { db } from "../db.mjs";
 import jwt from "jsonwebtoken";
 
-// ... (il resto del tuo codice rimane invariato)
-
 import process from "process";
 
 /* ------------------------------------------------------------------------------------------------------ */
@@ -17,12 +15,12 @@ const signupUser = async (req, res) => {
   try {
     await db.tx(async (t) => {
       // Seleziona i dati dalla tabella userData
-      const existingUser = await t.oneOrNone(
+      const existingUser = await db.oneOrNone(
         "SELECT * FROM userData WHERE email = $1 OR username = $2",
         [email, username]
       );
 
-      const existingDoc = await t.oneOrNone(
+      const existingDoc = await db.oneOrNone(
         "SELECT * FROM docData WHERE email = $1 OR username = $2",
         [email, username]
       );
@@ -34,7 +32,7 @@ const signupUser = async (req, res) => {
       }
 
       // Inserisci il nuovo utente nella tabella userData
-      const result = await t.one(
+      const result = await db.one(
         `
         INSERT INTO userData (name, surname, username, email, password)
         VALUES ($1, $2, $3, $4, $5)
