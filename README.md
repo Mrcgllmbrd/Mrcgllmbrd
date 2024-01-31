@@ -1,3 +1,6 @@
+### Hi there 👋
+
+
 <h1> Hello githubers!👋</h1>  <br />
 <p align = right> 🤯 &nbsp My life since I discovered the code:</p>
 <img src="https://github.com/Mrcgllmbrd/Mrcgllmbrd/assets/142672645/c2b3113b-4a85-449c-8e6b-fd5b0973a5a6" alt="Marco Giallombardo img" width="400" height="200" align="right" /> 
@@ -7,7 +10,7 @@
 👤❓I am a junior full-stack developer, not the best but the most tenacious and ambitious.<br></br>
 🛠️  I am working with my friends on a React application, it is a calorie tracking food diary.   <br></br>
 💬  My interests include books, work out, healthy nutrition, TV series, politics, and football <br></br>
-⚡  I am currently studying PostgreSQL.  <br></br>
+⚡  I am currently studying SQL  <br></br>
 </br>
 
 <h3> i'm focusing on </h3>
@@ -22,7 +25,10 @@
   
   <img src="https://img.shields.io/badge/react-red?style=flat&logo=react&logoColor=aqua&labelColor=black" height="30px">
 
-   <img src="https://img.shields.io/badge/node.js-red?style=flat&logo=node.js&logoColor=white&labelColor=green" height="30px">
+  <img src="https://img.shields.io/badge/node.js-red?style=flat&logo=node.js&logoColor=white&labelColor=green" height="30px">
+  <img src="https://img.shields.io/badge/PostgreSQL-red?style=flat&logo=postgresql&logoColor=white&labelColor=blue" height="30px">
+
+   
 </p>
 </br></br>
 
