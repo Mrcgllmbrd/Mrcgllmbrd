@@ -10,7 +10,7 @@
 👤❓I am a junior full-stack developer, not the best but the most tenacious and ambitious.<br></br>
 🛠️  I am working with my friends on a React application, it is a calorie tracking food diary.   <br></br>
 💬  My interests include books, work out, healthy nutrition, TV series, politics, and football <br></br>
-⚡  I am currently studying SQL  <br></br>
+⚡  I am currently studying SQL, Redux, .NET  <br></br>
 </br>
 
 <h3> i'm focusing on </h3>
